@@ -1,0 +1,67 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21 nov 2024, 21:15:18
+    Author     : alumno
+*/
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+h1 {
+    color: #1a1a1a;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+div {
+    display: flex;
+    gap: 1rem;
+}
+
+.clase1 {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+}
+
+.clase1:hover {
+    transform: translateY(-2px);
+    background-color: #357abd;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    div {
+        flex-direction: column;
+    }
+    
+    .clase1 {
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
